@@ -8,7 +8,7 @@ set -x
 KUBECTL_VERSION="v1.19.0"
 
 # Download the binary
-curl -LO https://storage.googleapis.com/kubernetes-release/release/$(KUBECTL_VERSION)/bin/linux/amd64/kubectl
+curl -LO https://storage.googleapis.com/kubernetes-release/release/${KUBECTL_VERSION}/bin/linux/amd64/kubectl
 
 # Provide executable permissions to the binary
 chmod +x ./kubectl
